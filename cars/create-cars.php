@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<form action="save-cars.php" method="POST">
+license plate <input type="text" name= "license_plate"> <br/>
+<br>
+owner identification <input type= "text" name= "owner_identification"> <br/>
+<br>
+Mark <input type="text" name= "mark"> <br/>
+<br>
+model <input type="text" name= "model"> <br/>
+<br>
+KM <input type="text" name= "km"> <br/>
+<br>
+<input type="submit" value= "save Car">
+</form>
+    
+</body>
+</html>
