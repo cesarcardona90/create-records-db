@@ -16,7 +16,7 @@ $cnx = new PDO("mysql:host=$host;dbname=$dbname", $ussername, $password);
 
 //2. Build SQL sentence
 
-$sql = "INSERT INTO client, (id, name, identification_card, license_plate, phone) VALUES (NULL, '$name', '$identification_card',  '$license_plate',  '$phone')";
+$sql = "INSERT INTO client (id, name, identification_card, license_plate, phone) VALUES (NULL, '$name', '$identification_card',  '$license_plate',  '$phone')";
 
 //3. prepare SQL sentence
 

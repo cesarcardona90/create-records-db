@@ -10,7 +10,7 @@ $password = "";
 $cnx = new PDO("mysql:host=$host;dbname=$dbname", $ussername, $password);
 
 //2. Build SQL sentence
-$sql = "SELECT  id, name, license_plate FROM client";
+$sql = "SELECT  id, name FROM client";
 //3. prepare SQL sentence
 $q = $cnx->prepare($sql);
 //4. execute SQL sentence
