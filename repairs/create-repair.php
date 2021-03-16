@@ -38,7 +38,10 @@ $cars= $q->fetchAll();
 <body>
 
 <form action="save-repair.php" method="POST">
-Repairs, Client
+Vehicle repair <br>
+<br>
+<br>
+Client
 <br>
 <select name="client" id="">
 
@@ -57,7 +60,7 @@ for($i=0; $i<count($client); $i++) {
 </select>
 <br>
 <br>
-Repairs, cars
+Car
 <br>
 <select name="cars" id="">
 

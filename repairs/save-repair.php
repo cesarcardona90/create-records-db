@@ -22,12 +22,15 @@ $sql = "INSERT INTO `repairs` (`id`, `client`, `cars`, `description`, `admission
 $w = $cnx->prepare($sql);
 //4. execute SQL sentence
 
+
 $result = $w->execute();
 if($result){
     echo "Repair saved sucessfully";
+
 }
 else{
     echo "There was an error creating the repair";
 
 }
+
 ?>
